@@ -1,0 +1,1 @@
+This is my GitHub for the 'Reproducible Figures' assignment. The project is found in the 'RF_project' file, and contains everything needed to run my code and analyses. No other files should be required. 
