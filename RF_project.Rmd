@@ -143,6 +143,8 @@ attach(penguins_raw) #This line makes the penguins_raw data accessible by name
 
 names(penguins_raw)
 
+write.csv(penguins_raw, "data/penguins_raw.csv") #This line writes the penguins_raw data into a csv file to keep as an original copy, and stores it in the 'data' folder. For this line to work, the user must have a folder name "data" in their working directory. I have included this folder in the GitHub repo
+
 filtered_penguins <- penguins_raw %>%
   select(-starts_with("Delta")) %>%
   select(-Comments) %>%
@@ -267,10 +269,10 @@ From my linear regression test and the figures that I have provided, I have deci
 
 
 
-As a final note, I have condensed all of the code I used for producing my final graph into a single pipeline. In this project I wanted to describe my code and process in detail, but if I were to code this during real analysis to be reproducible by other scientists with experience of R, I would create this pipeline and explain it in a paragraph afterwards. 
+As a final note, I have condensed all of the code I used for producing my final graph into a single pipe. In this project I wanted to describe my code and process in detail, but if I were to code this during real analysis to be reproducible by other scientists with experience of R, I would create this pipe and explain it in a paragraph afterwards. 
 
 
-```{r full data pipeline, message=FALSE}
+```{r full data pipe, message=FALSE}
 adelies_full_analysis <- penguins_raw %>%
   select(-starts_with("Delta")) %>%
   select(-Comments) %>%
