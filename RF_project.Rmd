@@ -315,8 +315,25 @@ adelies_full_analysis
 
 -   *If you needed to alter your partner's figure using their code, do you think that would be easy or difficult, and why?*
 
+
+To begin with presentation, I thought my partner’s code was very easily understandable. They provided plenty of comments throughout, nicely spaced, and explained each point in simple terms. The graphs were functional, effective, and aesthetically pleasing. 
+Their code ran perfectly. Once I downloaded the necessary files from GitHub and loaded the necessary packages, each chunk ran exactly as it should, and the outcome was exactly as expected. I didn’t need to fix any areas at all, other than making sure I had compiled all of the download files in the same folder and set my working directory correctly – I do think that it would have helped to note the importance of downloading these extra files early in the code.
+One point for improvement I would make is (though I realise upon reflection of my own code I almost certainly overexplained some areas) that I thought some lines of code could have been explained in slightly more detail. I thought the attributes/parameters of some of the functions could be explained more – for example, I’m not sure what the ‘which’ attribute in the plot() function does. Similarly, I have never come across the dev.off() function before, and I’m not entirely sure what it does, so I think that could have done with being explained.
+I think that for the most part I would be able to edit my partner’s code effectively. They didn’t overcomplicate their code, and didn’t include unnecessary attributes in their figures. Other than the one or two lines of code I mentioned above, I think it would be very easy to alter my partner’s analysis to test similar hypotheses. 
+Overall, I was highly impressed with my partner’s code. I had very little to say in the way of criticism or improvement. It is transparent, understandable, runs effectively and, crucially, reproducible. I think they would have no issue submitting this code to a journal. 
+
+
+
 ### d) Reflect on your own code based on your experience with your partner's code and their review of yours. (300-500 words)
 
 -   *What improvements did they suggest, and do you agree?*
 
 -   *What did you learn about writing code for other people?*
+
+
+My partner liked my code, and thought my presentation was clearly laid out. They thought my code was well explained, though some areas potentially required more spacing, or perhaps some headings to split up long paragraphs. I completely agree with this, and realised as I was reading their code that I have probably overexplained some areas, such as the results of the linear model summary. 
+They appreciated that I had noted in my README.md file in my repo that the data folder was required to run the write.csv() line of my code. Also, they did have a couple of issues with installing/loading packages at first, but they appreciated that I had laid the installations out neatly at the beginning, and this may have been down to an issue with their computer. 
+This previous point highlights one of the issues with work only being checked by one person – if an area of code isn’t working, it can be unclear whether this is an issue with the code or just a technical issue. This is why work must be reviewed by multiple peers before being accepted by a journal, and this process is crucial to ensuring reproducibility of code. 
+Reading through my partner’s code also made me aware of some improvements I could make to mine. I already noted that I think I overexplained some areas, but I also think that I definitely should have added more biological context to my hypothesis – specifically, describing how the results of my graph would apply in real life, and why it may be important to test this analysis. For example, testing the relationship between body mass and flipper length could be important if flipper morphology is specific to different species, and so the flipper length/body mass trend within each species could be useful for investigating the evolutionary history of penguin morphology. 
+I had a very positive experience of swapping code with my partner. However, this was definitely helped by the fact that both of our data pipelines worked well. I realise that more challenges arise when code is more complicated, and more criticisms must be raised, but I did enjoy the experience of going through a peer’s code and providing feedback, and I enjoyed troubleshooting my own code throughout the project. I think receiving feedback from others is crucial for both improving the code itself and ensuring reproducibility. 
+
